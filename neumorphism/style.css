@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: url("images/orange.png") center no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 350px;
+    height: 580px;
+    margin: 2rem;
+    background: whitesmoke;
+    border: 2px solid whitesmoke;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 20px;
+}
+
+.container .img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 80px;
+}
+.container .img img{
+    width: 175px;
+    height: 175px;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.082),
+    0 9.5px 12.8px rgba(0,0,0, 0.121),
+    0 22.9px 30.8px rgba(0,0,0, 0.156),
+    0 76px 102px rgba(0,0,0, 0.21);
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .name{
+    margin-top: 10px;
+        text-align: center;
+        width: 100%;
+}
+
+.container .name h2{
+    font-size: 1.3rem;
+    color: #222;
+}
+.container .icon .item{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.container .icon .item li{
+    list-style: none;
+    width: 24%;
+    padding: 18px;
+}
+.container .icon .item li img{
+    width: 100%;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    /*box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121 .288);*/
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.082),
+    0 9.5px 12.8px rgba(0,0,0, 0.121),
+    0 22.9px 30.8px rgba(0,0,0, 0.156),
+    0 76px 102px rgba(0,0,0, 0.21);
+}
+
+.container .box{
+    align-items: center;
+    text-align: center;
+}
+.container .box .details p{
+    font-style: 0.9em;
+    font-weight: bold;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container .box .details p span{
+    padding: 8px 10px;
+    background: #bc5c14;
+    font-weight: bold;
+    color: white;
+    box-shadow:  0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 20px;
+}
+
+.container .box .AgeAdd{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container .box .AggeAdd p{
+    font-style: 0.9em;
+    color: #222;
+    background-size: none;
+}
+
+.container .follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .follow p{
+    font-size: 0.9rem;
+    color: #222;
+    font-weight: bolder;
+}
+
+.container .follow .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .follow .item li{
+    list-style: none;
+    width: 15%;
+    padding: 8px;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+}
+
+.container .follow .item li img{
+    width: 100%;
+    padding: 7px;
+    background: whitesmoke;
+    box-shadow:  0 3.4px 4.6px rgba(0,0,0, 0.082),
+    0 9.5px 12.8px rgba(0,0,0, 0.121),
+    0 22.9px 30.8px rgba(0,0,0, 0.156),
+    0 76px 102px rgba(0,0,0, 0.21);
+    border-radius: 20px;
+    border: 2x solid transparent;
+}
+
+/*-----------------------------------------------------------------*/
+
+
+.container .card .imgBox{
+    margin-top: 1.5rem; 
+    margin-left: 2.5rem;
+}
+
+.container .card .imgBox img{
+    width: 160px;
+    height: 160px;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .card .imgBox .cict{
+    position: relative;
+      top: 0;
+      left: 0;
+}
+.container .card .imgBox .wvsu{
+    position: absolute;
+      left: 180px;
+}
+
+.container .card .Info{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container .card .Info span{
+    padding-top: 2rem;
+    margin-top: 2rem;
+    padding: 8px 10px;
+    background: #bc5c14;
+    font-weight: bold;
+    color: white;
+    box-shadow:  0 3.4px 4.6px rgba(0,0,0, 0.082),
+    0 9.5px 12.8px rgba(0,0,0, 0.121),
+    0 22.9px 30.8px rgba(0,0,0, 0.156),
+    0 76px 102px rgba(0,0,0, 0.21);
+    border-radius: 20px;
+}
+.container .card .Info .smallcontainer{
+    margin: 1rem;
+    background: whitesmoke;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+.container .card .Info .smallcontainer p{
+    font-size: 1.15em;
+    margin: 1rem;
+}
+
+/*----------------------------------------------------------------------*/
+
+.container .card2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container .card2 .skills span{
+    padding-top: 1rem;
+    margin-top: 2rem;
+    padding: 8px 10px;
+    background: #bc5c14;
+    font-weight: bold;
+    color: white;
+    box-shadow:   0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 20px;
+}
+
+.container .card2 .skills .smallcontainer2 .item2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card2 .skills .smallcontainer2 .item2 li{
+    margin-top: 1rem;
+    list-style: none;
+    width: 22%;
+    padding: 8px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.container .card2 .skills .smallcontainer2 .item2 li img{
+    width: 100%;
+    padding: 2px;
+    background: whitesmoke;
+    box-shadow:    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 50%;
+    border: 2x solid transparent;
+}
+
+.container .card2 .skills .smallcontainer2 .item3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card2 .skills .smallcontainer2 .item3 li{
+    margin-top: 1rem;
+    list-style: none;
+    width: 22%;
+    padding: 8px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.container .card2 .skills .smallcontainer2 .item3 li img{
+    width: 100%;
+    padding: 2px;
+    background: whitesmoke;
+    box-shadow:    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 50%;
+    border: 2x solid transparent;
+}
+
+.container .card2 .skills .smallcontainer2 .item4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card2 .skills .smallcontainer2 .item4 li{
+    margin-top: 1rem;
+    list-style: none;
+    width: 22%;
+    padding: 8px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.container .card2 .skills .smallcontainer2 .item4 li img{
+    width: 100%;
+    padding: 2px;
+    background: whitesmoke;
+    box-shadow:    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 50%;
+    border: 2x solid transparent;
+}
+
+.container .card2 .skills .smallcontainer2 .Info2{
+    margin: 1rem;
+    background: whitesmoke;
+    box-shadow: 
+    0 3.4px 4.6px rgba(0,0,0, 0.190),
+    0 9.5px 12.8px rgba(0,0,0, 0.240),
+    0 22.9px 30.8px rgba(0,0,0, 0.270),
+    0 76px 102px rgba(0,0,0, 0.140);
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+.container .card2 .skills .smallcontainer2 .Info2 p{
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
